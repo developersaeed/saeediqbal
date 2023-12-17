@@ -23,10 +23,10 @@ jobs:
         
         - name: Deploy 🚀 
           run: 
-            git config --global user.name "developer saeed"
-            git config --global user.email "saeediqbalofficial@gmail.com"
+            git config --global user.name "<EMAIL>"
+            git config --global user.name "<NAME>"
             git remote set-url origin https://${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
-            npm run deploy
+            git checkout -b gh-pages
 
 
             
