@@ -1,0 +1,32 @@
+name : Build and deploy React App to Github Pages
+
+on:
+    push:
+        branches: [main]
+
+jobs:
+  build-and-deploy:
+        name: Build and Deploy React App to Github Pages
+        runs-on: ubuntu-latest
+        
+        
+        steps:
+        - name: Checkout 🛎️
+          uses: actions/checkout@v2.3.1
+
+        - name: Install and Build 🔧
+          run: npm install
+           
+
+        - name: Test 🚀
+          run: npm run test
+        
+        - name: Deploy 🚀 
+          run: 
+            git config --global user.name "developer saeed"
+            git config --global user.email "saeediqbalofficial@gmail.com"
+            git remote set-url origin https://${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
+            npm run deploy
+
+
+            
