@@ -8,6 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
           <h3>This website is under Maintenance</h3>
           <p>Contact at : Saeediqbalofficial@gmail.com</p>
+          <p> THANK YOU </p>
             </header>
     </div>
   );
