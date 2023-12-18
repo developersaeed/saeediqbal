@@ -8,9 +8,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} />
-          <h3>This website is under Maintenance</h3>
-          <p>Contact at : Saeediqbalofficial@gmail.com</p>
-          <p>THANK YOU</p>
+          <h5>This website is under Maintenance</h5>
+          <h6>Contact at : Saeediqbalofficial@gmail.com</h6>
+          <h6>THANK YOU</h6>
             </header>
     </div>
   );
