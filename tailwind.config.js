@@ -5,10 +5,10 @@ module.exports = {
     extend: {
       colors: {
         
-          "bg-primary": "#080808 ",
-          "bg-secondary": "#FF6B00",
-          "acent-primary": "#292929",
-          "acent-secondary": "#292929",
+          "primary": "#080808 ",
+          "secondary": "#FF6B00",
+          "acent": "#292929",
+          "acent-i": "#292929",
           "para-color": "#F3F3F3",
         
       },
