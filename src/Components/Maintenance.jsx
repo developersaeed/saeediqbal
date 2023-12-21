@@ -9,7 +9,7 @@ function Maintenance() {
         </div>
         <div className="p-4 flex justify-center">
           <p className="text-white font-sans text-center">
-            This Website is Under Maintenance. Coming Soon... 
+            Website Under Maintenance. Coming Soon... 
           </p>
          
         </div>
