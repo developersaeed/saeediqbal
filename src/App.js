@@ -1,11 +1,12 @@
 
 import "./App.css";
+import Maintenance from "./Components/Maintenance";
 
 
 function App() {
   return (
  <>
-<p className="text-bg-secondary ">This is a para</p>
+<Maintenance />
  </>
   );
 }
