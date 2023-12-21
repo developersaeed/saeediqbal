@@ -16,7 +16,7 @@ function Maintenance() {
 
         <div className="flex justify-center">
             <p className="text-white font-sans text-sm">
-              Contact at saeediqbaloffficial@gmail.com
+              Contact at saeediqbalofficial@gmail.com
             </p></div>
       </div>
     </>
