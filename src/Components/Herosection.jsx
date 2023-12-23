@@ -29,7 +29,7 @@ function Herosection() {
 </div>
 <div className=" p-3" > 
 
-<button className="bg-secondary text-white p-2 px-4 border-0 shadow-md shadow-primary">Download CV </button>
+<button className="bg-acent text-secondary p-2 px-4 border-0 shadow-md shadow-primary">Download CV </button>
 
 </div>
 

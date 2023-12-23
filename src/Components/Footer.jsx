@@ -32,11 +32,11 @@ function Footer() {
           {/* social icons */}
 
             <div className="flex justify-around">
-                <a href="https://www.instagram.com/saeediqbal.dev/" target="_blank">    <div className="mx-3 rounded-xs bg-transparent border-[1px] border-white  p-[07px] hover:shadow-lg  hover:shadow-secondary  hover:border-secondary hover:text-secondary">    <FaInstagram  size={30}  /> </div> </a>
-                <a href="https://www.linkedin.com/in/saeediqbaldev" target="_blank">    <div className="mx-3 rounded-xs bg-transparent border-[1px] border-white  p-[07px] hover:shadow-lg  hover:shadow-secondary  hover:border-secondary hover:text-secondary">    <TbBrandLinkedin size={30}  />   </div></a>
-                <a href="mailto:saeediqbalofficial@gmail.com" target="_blank">    <div className="mx-3 rounded-xs bg-transparent border-[1px] border-white  p-[07px] hover:shadow-lg  hover:shadow-secondary  hover:border-secondary hover:text-secondary">    <MdOutlineMail size={30}  /></div></a>
-                <a href="https://wa.me/923049297788" target="_blank">    <div className="mx-3 rounded-xs bg-transparent border-[1px] border-white  p-[07px] hover:shadow-lg  hover:shadow-secondary  hover:border-secondary hover:text-secondary">    <FaWhatsapp  size={30}  /></div></a>
-                <a href="https://github.com/saeediqbaldev" target="_blank">    <div className="mx-3 rounded-xs bg-transparent border-[1px] border-white  p-[07px] hover:shadow-lg  hover:shadow-secondary  hover:border-secondary hover:text-secondary">    <FaGithub size={30}  /></div></a>
+                <a href="https://www.instagram.com/saeediqbal.dev/" aria-label="Instagram" target="_blank">    <div className="mx-3 rounded-xs bg-transparent border-[1px] border-white  p-[07px] hover:shadow-lg  hover:shadow-secondary  hover:border-secondary hover:text-secondary">    <FaInstagram  size={30}  /> </div> </a>
+                <a href="https://www.linkedin.com/in/saeediqbaldev" aria-label="LinedIn" target="_blank">    <div className="mx-3 rounded-xs bg-transparent border-[1px] border-white  p-[07px] hover:shadow-lg  hover:shadow-secondary  hover:border-secondary hover:text-secondary">    <TbBrandLinkedin size={30}  />   </div></a>
+                <a href="mailto:saeediqbalofficial@gmail.com"       aria-label="Gmail" target="_blank">    <div className="mx-3 rounded-xs bg-transparent border-[1px] border-white  p-[07px] hover:shadow-lg  hover:shadow-secondary  hover:border-secondary hover:text-secondary">    <MdOutlineMail size={30}  /></div></a>
+                <a href="https://wa.me/923049297788"                aria-label="WhatsApp" target="_blank">    <div className="mx-3 rounded-xs bg-transparent border-[1px] border-white  p-[07px] hover:shadow-lg  hover:shadow-secondary  hover:border-secondary hover:text-secondary">    <FaWhatsapp  size={30}  /></div></a>
+                <a href="https://github.com/saeediqbaldev"          aria-label="Github" target="_blank">    <div className="mx-3 rounded-xs bg-transparent border-[1px] border-white  p-[07px] hover:shadow-lg  hover:shadow-secondary  hover:border-secondary hover:text-secondary">    <FaGithub size={30}  /></div></a>
             </div>
         </div>
         <div className="flex justify-center p-4 text-sm text-para-color">
