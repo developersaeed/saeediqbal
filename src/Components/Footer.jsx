@@ -13,7 +13,7 @@ function Footer() {
         
             <img
               src={LogoImage}
-              className="h-[50px] w-[170px] -mt-3"
+              className="h-[50px] w-[150px] -mt-3"
               alt="Logo Image"
             />
           </a>
@@ -41,7 +41,7 @@ function Footer() {
         </div>
         <div className="flex justify-center p-4 text-sm text-para-color">
             
-            <div className="text-center  "> Handicrafted by Me &#10084;&#65039;  &#169; twentytwentyfour - All rights reserved </div>
+            <div className="text-center  "> handcrafted by Me &#10084;&#65039;  &#169; twentytwentyfour - All rights reserved </div>
         
         </div>
         <div className="flex justify-center p-4 text-sm text-para-color"><div> </div>
