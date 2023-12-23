@@ -13,7 +13,7 @@ function Footer() {
         
             <img
               src={LogoImage}
-              className="h-auto w-[250px] -mt-3"
+              className="h-[50px] w-[170px] -mt-3"
               alt="Logo Image"
             />
           </a>

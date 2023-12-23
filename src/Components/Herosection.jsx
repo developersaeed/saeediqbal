@@ -8,14 +8,14 @@ function Herosection() {
 
 <div className=" flex justify-center align-middle p-3">
   
-   <a  href="https://saeediqbal.dev/" target="_self">   <img src={LogoImage} className="h-auto w-[170px] -mt-3" alt="Logo Image" /></a>
+   <a  href="https://saeediqbal.dev/" target="_self">   <img src={LogoImage} className="h-[50px] w-[150px] -mt-3" alt="Logo Image" /></a>
 
   </div>
 <div className="w-[100vh] ">
   
   <ul className=" flex align-middle justify-evenly mt-1 ">
    
-    <li className="text-white border-t-2 border-primary  hover:border-t-2 hover:border-secondary   pt-3">About</li>
+    <li className="text-white border-t-2 border-primary  hover:border-t-2 hover:border-secondary pt-3">About</li>
     <li className="text-white border-t-2 border-primary  hover:border-t-2 hover:border-secondary pt-3">Experties</li>
     <li className="text-white border-t-2 border-primary  hover:border-t-2 hover:border-secondary pt-3">Work</li>
     <li className="text-white border-t-2 border-primary  hover:border-t-2 hover:border-secondary pt-3">Reviews</li>
