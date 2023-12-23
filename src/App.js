@@ -1,12 +1,15 @@
 
 import "./App.css";
-import Maintenance from "./Components/Maintenance";
+import Footer from "./Components/Footer";
+import Herosection from "./Components/Herosection";
+
 
 
 function App() {
   return (
  <>
-<Maintenance />
+<Herosection />
+<Footer />
  </>
   );
 }
