@@ -10,6 +10,7 @@ module.exports = {
           "acent": "#292929",
           "acent-i": "#292929",
           "para-color": "#F3F3F3",
+          "shadow": "#D55D07"
         
       },
     },
