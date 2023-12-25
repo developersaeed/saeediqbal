@@ -21,6 +21,8 @@ const Navbar = () => {
 
   return (
     <>
+
+  
       <div className=" fixed w-full h-16 shadow-sm z-[100]">
         <div className=" flex justify-between items-center w-full h-full px-4 md:px-10 2xl:px-16">
           <a href="https://saeediqbal.dev/" target="_self">
