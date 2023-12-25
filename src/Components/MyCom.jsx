@@ -1,6 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet';
-import  FeaturedImage  from 'featuredimage.png';
+import  FeaturedImage  from './featuredimage.png';
 
 const MyCom = () => {
   return (
