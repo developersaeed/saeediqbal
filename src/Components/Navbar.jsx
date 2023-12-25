@@ -71,13 +71,13 @@ const Navbar = () => {
                 <a href="https://saeediqbal.dev/" target="_self">
                   <img
                     src={MyImage}
-                    className=" h-[70px] w-[70px rounded-full shadow-md shadow-black ] "
+                    className=" h-[70px] w-[70px rounded-full shadow-md shadow-white "
                     alt="Logo Image"
                   />
                 </a>
               </div>
               <div>
-              <div onClick={handleNav} className=" shadow-md rounded-full shadow-black p-1 cursor-pointer">
+              <div onClick={handleNav} className=" shadow-md rounded-full shadow-white p-1 cursor-pointer">
                 <MdOutlineClose size={25} className="text-secondary" />
               </div>
               </div>
@@ -86,7 +86,7 @@ const Navbar = () => {
             {/* para */}
 
             <div className="border-b border-gray-400 my-4">
-              <p className="text-xs capitalize w-[90%] md:w-[90%] py-3 text-para-color">
+              <p className="text-sm capitalize w-[90%] md:w-[90%] py-3 text-para-color">
                 Let's build your dream website together
               </p>
             </div>
