@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import LogoImage from "../img/logo.png";
+import LogoImage from "../img/saeediqbal.png";
 import { FaWhatsapp , FaInstagram , FaGithub,    } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import { PiLinkedinLogo } from "react-icons/pi";
@@ -58,25 +58,27 @@ const Navbar = () => {
         </div>
 
         {/* overlay */}
-        <div className={nav ? "fixed left-0 top-0 w-full h-screen bg-acent-i/70" : ''}>
+        <div className={nav ? " md:hidden fixed left-0 top-0 w-full h-screen bg-primary/50  " : ''}>
           {/* menu div container */}
 
-          <div className={nav ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] shadow-md shadow-secondary/50 h-screen bg-black/100 p-6 ease-in duration-500" :
+          <div className={nav ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] shadow-md h-screen bg-black/100 p-6 ease-in duration-500" :
         
                 'fixed left-[-100%] top-0 h-screen bg-black/100 p-6 ease-in duration-500 '}>
             {/* Menu logo and close button div */}
-            <div className=" flex justify-between w-full">
+            <div className=" flex justify-between w-full items-center">
               <div>
                 <a href="https://saeediqbal.dev/" target="_self">
                   <img
                     src={LogoImage}
-                    className=" h-[30px] w-[100px] "
+                    className=" h-[70px] w-[70px] "
                     alt="Logo Image"
                   />
                 </a>
               </div>
+              <div>
               <div onClick={handleNav} className=" shadow-md rounded-full shadow-[#383838] p-1 cursor-pointer">
-                <MdOutlineClose size={20} className="text-secondary" />
+                <MdOutlineClose size={25} className="text-secondary" />
+              </div>
               </div>
             </div>
 
@@ -100,12 +102,12 @@ const Navbar = () => {
               {/* icons */}
 
               <div className="pt-20">
-                <p className=" uppercase tracking-wideer text-para-color"> Follow Me Up</p>
+                <p className=" uppercase tracking-wideer text-para-color"> Get In Touch</p>
 
                 <div>
 
                 <div className="flex justify-between items-center w-[85%] mt-4 ">
-                {/* <a href="https://www.instagram.com/saeediqbal.dev/" aria-label="Instagram" target="_blank">    <div className=" rounded-xs bg-acent   rounded-full text-white shadow-lg shadow-gray-800 hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-gray-800  hover:text-secondary">    <FaInstagram  size={ 20}  /> </div> </a> */}
+                <a href="https://www.instagram.com/saeediqbal.dev/" aria-label="Instagram" target="_blank">    <div className=" rounded-xs bg-acent   rounded-full text-white shadow-lg shadow-gray-800 hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-gray-800  hover:text-secondary">    <FaInstagram  size={ 20}  /> </div> </a>
                 <a href="https://www.linkedin.com/in/saeediqbaldev" aria-label="LinedIn" target="_blank">      <div className=" rounded-xs bg-acent   rounded-full text-white shadow-lg shadow-gray-800 hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-gray-800  hover:text-secondary">    <TbBrandLinkedin size={ 20}  />   </div></a>
                 <a href="mailto:saeediqbalofficial@gmail.com"       aria-label="Gmail" target="_blank">        <div className=" rounded-xs bg-acent   rounded-full text-white shadow-lg shadow-gray-800 hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-gray-800  hover:text-secondary">    <MdOutlineMail size={ 20}  /></div></a>
                 <a href="https://wa.me/923049297788"                aria-label="WhatsApp" target="_blank">     <div className=" rounded-xs bg-acent   rounded-full text-white shadow-lg shadow-gray-800 hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-gray-800  hover:text-secondary">    <FaWhatsapp  size={ 20}  /></div></a>
