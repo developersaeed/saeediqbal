@@ -1,12 +1,13 @@
 import React, {useState} from "react";
 import LogoImage from "../img/logo.png";
 import MyImage from "../img/saeediqbal.png";
-import { FaWhatsapp , FaInstagram , FaGithub,    } from "react-icons/fa";
+import { FaWhatsapp , FaGithub,    } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
-import { PiLinkedinLogo } from "react-icons/pi";
 import { TbBrandLinkedin } from "react-icons/tb";
 import { RiMenu3Fill } from "react-icons/ri";
 import { MdOutlineClose } from "react-icons/md";
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
+
 
 const Navbar = () => {
 
@@ -23,7 +24,7 @@ const Navbar = () => {
     <>
 
   
-      <div className=" fixed w-full h-16 shadow-sm z-[100]">
+      <div className="  w-full h-16 shadow-sm z-[100]">
         <div className=" flex justify-between items-center w-full h-full px-4 md:px-10 2xl:px-16">
           <a href="https://saeediqbal.dev/" target="_self">
             <img
@@ -46,9 +47,11 @@ const Navbar = () => {
               <li className=" ml-10 text-sm uppercase hover:border-b ">
                 Reviews
               </li>
+              <Link to="Contact-me" spy={true} smooth={true} offset={50} duration={800} >
               <li className=" ml-10 text-sm uppercase hover:border-b ">
                 Contact
               </li>
+              </Link >
             </ul>
             <div onClick={handleNav} className="md:hidden">
               <RiMenu3Fill size={25} className="text-secondary" />
@@ -73,7 +76,7 @@ const Navbar = () => {
                 <a href="https://saeediqbal.dev/" target="_self">
                   <img
                     src={MyImage}
-                    className=" h-[70px] w-[70px rounded-full shadow-md shadow-white "
+                    className=" h-[70px] w-[70px] rounded-full shadow-md shadow-white "
                     alt="Logo Image"
                   />
                 </a>

@@ -1,7 +1,7 @@
 
 import "./App.css";
+import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
-import Herosection from "./Components/Herosection";
 import Navbar from "./Components/Navbar";
 
 
@@ -12,7 +12,9 @@ function App() {
 
  <Navbar />
 {/* <Herosection /> */}
+<Contact />
 <Footer />
+
  </>
   );
 }
