@@ -64,12 +64,12 @@ const Navbar = () => {
         </div>
 
         {/* overlay */}
-        <div className={nav ? " md:hidden fixed left-0 top-0 w-full h-screen bg-primary/50  " : ''}>
+        <div onClick={handleNav} className={nav ? " md:hidden fixed left-0 top-0 w-full h-screen bg-black/80    " : ''}>
           {/* menu div container */}
 
-          <div className={nav ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] shadow-md h-screen bg-acent-i p-6 ease-in duration-500" :
+          <div className={nav ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%]  h-screen bg-black shadow-sm shadow-[#013309] p-6 ease-in duration-500" :
         
-                'fixed left-[-100%] top-0 h-screen bg-acent-i p-6 ease-in duration-500 '}>
+                'fixed left-[-100%] top-0 h-screen bg-[#013309] p-6 ease-in duration-500 '}>
             {/* Menu logo and close button div */}
             <div className=" flex justify-between w-full items-center">
               <div>
@@ -114,10 +114,10 @@ const Navbar = () => {
 
                 <div className="flex justify-between items-center w-[85%] mt-4 ">
                 {/* <a href="https://www.instagram.com/saeediqbal.dev/" aria-label="Instagram" target="_blank">    <div className=" rounded-xs bg-acent mx-1  rounded-full text-white shadow-md shadow-white hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-gray-800  hover:text-secondary">    <FaInstagram  size={ 20}  /> </div> </a> */}
-                <a href="https://www.linkedin.com/in/saeediqbaldev" aria-label="LinedIn" target="_blank">      <div className=" rounded-xs bg-acent mx-1  rounded-full text-white shadow-md shadow-white hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-secondary hover:bg-black  hover:text-secondary">    <TbBrandLinkedin size={ 20}  />   </div></a>
-                <a href="mailto:saeediqbalofficial@gmail.com"       aria-label="Gmail" target="_blank">        <div className=" rounded-xs bg-acent mx-1  rounded-full text-white shadow-md shadow-white hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-secondary hover:bg-black  hover:text-secondary">    <MdOutlineMail size={ 20}  /></div></a>
-                <a href="https://wa.me/923049297788"                aria-label="WhatsApp" target="_blank">     <div className=" rounded-xs bg-acent mx-1  rounded-full text-white shadow-md shadow-white hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-secondary hover:bg-black  hover:text-secondary">    <FaWhatsapp  size={ 20}  /></div></a>
-                <a href="https://github.com/saeediqbaldev"          aria-label="Github" target="_blank">       <div className=" rounded-xs bg-acent mx-1  rounded-full text-white shadow-md shadow-white hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-secondary hover:bg-black  hover:text-secondary">    <FaGithub size={ 20}  /></div></a>
+                <a href="https://www.linkedin.com/in/saeediqbaldev" aria-label="LinedIn" target="_blank">      <div className=" rounded-xs bg-[#080B09] mx-1  rounded-full text-[#1CB834]  hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-secondary hover:bg-black  hover:text-secondary">    <TbBrandLinkedin size={ 20}  />   </div></a>
+                <a href="mailto:saeediqbalofficial@gmail.com"       aria-label="Gmail" target="_blank">        <div className=" rounded-xs bg-[#080B09] mx-1  rounded-full text-[#1CB834]  hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-secondary hover:bg-black  hover:text-secondary">    <MdOutlineMail size={ 20}  /></div></a>
+                <a href="https://wa.me/923049297788"                aria-label="WhatsApp" target="_blank">     <div className=" rounded-xs bg-[#080B09] mx-1  rounded-full text-[#1CB834]  hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-secondary hover:bg-black  hover:text-secondary">    <FaWhatsapp  size={ 20}  /></div></a>
+                <a href="https://github.com/saeediqbaldev"          aria-label="Github" target="_blank">       <div className=" rounded-xs bg-[#080B09] mx-1  rounded-full text-[#1CB834]  hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-secondary hover:bg-black  hover:text-secondary">    <FaGithub size={ 20}  /></div></a>
             </div>
                 </div>
 

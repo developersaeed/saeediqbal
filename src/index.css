@@ -12,7 +12,7 @@
 }
     h1,h2,h3,h4,h5 {
 
-    @apply font-bold text-[#e6e6e6]
+    /* @apply font-bold text-[#e6e6e6] */
 }
 
     li {
@@ -22,6 +22,6 @@
 
     button{
 
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-secondary  to-[#ff8c2e]  
+    /* @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-secondary  to-[#ff8c2e]   */
 }
 }
