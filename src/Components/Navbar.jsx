@@ -24,7 +24,7 @@ const Navbar = () => {
     <>
 
   
-      <div className="  w-full h-16 shadow-sm z-[100]">
+      <div className="  w-full h-16 shadow-sm z-[100] ">
         <div className=" flex justify-between items-center w-full h-full px-4 md:px-10 2xl:px-16">
           <a href="https://saeediqbal.dev/" target="_self">
             <img
@@ -32,29 +32,35 @@ const Navbar = () => {
               className=" sm:h-[50px] sm:w-[160px] h-10 w-70 "
               alt="Logo Image"
             />
+
           </a>
 
           {/* Menu div */}
           <div>
-            <ul className="hidden md:flex">
-              <li className=" ml-10 text-sm uppercase hover:border-b ">
+            <ul className="hidden md:flex  pb-2 mt-3">
+              <li className=" ml-10 text-md  hover:border-b hover:border-secondary pb-2">
+               Home
+              </li>
+              <li className=" ml-10 text-md  hover:border-b hover:border-secondary pb-2">
                 About
               </li>
-              <li className=" ml-10 text-sm uppercase hover:border-b ">
-                Experties
+              <li className=" ml-10 text-md  hover:border-b hover:border-secondary pb-2">
+                Services
               </li>
-              <li className=" ml-10 text-sm uppercase hover:border-b ">Work</li>
-              <li className=" ml-10 text-sm uppercase hover:border-b ">
+              <li className=" ml-10 text-md  hover:border-b hover:border-secondary pb-2 ">
+                Projects
+              </li>
+              <li className=" ml-10 text-md  hover:border-b hover:border-secondary pb-2 ">
                 Reviews
               </li>
               <Link to="Contact-me" spy={true} smooth={true} offset={50} duration={800} >
-              <li className=" ml-10 text-sm uppercase hover:border-b ">
+              <li className=" ml-10 text-md  hover:border-b hover:border-secondary pb-2">
                 Contact
               </li>
               </Link >
             </ul>
             <div onClick={handleNav} className="md:hidden">
-              <RiMenu3Fill size={25} className="text-secondary" />
+              <RiMenu3Fill size={25} className="text-white" />
             </div>
           </div>
 
@@ -74,16 +80,18 @@ const Navbar = () => {
             <div className=" flex justify-between w-full items-center">
               <div>
                 <a href="https://saeediqbal.dev/" target="_self">
-                  <img
+                  {/* <img
                     src={MyImage}
                     className=" h-[70px] w-[70px] rounded-full shadow-md shadow-white "
                     alt="Logo Image"
-                  />
+                  /> */}
+                  
+            <span>Saeediqbal.dev</span>
                 </a>
               </div>
               <div>
               <div onClick={handleNav} className=" shadow-md rounded-full shadow-white p-1 cursor-pointer">
-                <MdOutlineClose size={25} className="text-secondary" />
+                <MdOutlineClose size={25} className="text-white" />
               </div>
               </div>
             </div>
