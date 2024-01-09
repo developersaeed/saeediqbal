@@ -13,8 +13,8 @@ function App() {
 
  {/* <Navbar />  */}
  <HeroSection />
-{/* <Contact />
-<Footer /> */}
+<Contact />
+<Footer />
 
  </>
   );

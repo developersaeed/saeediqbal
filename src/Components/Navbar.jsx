@@ -53,7 +53,7 @@ const Navbar = () => {
               <li className=" ml-10 text-md  hover:border-b hover:border-secondary pb-2 ">
                 Reviews
               </li>
-              <Link to="Contact-me" spy={true} smooth={true} offset={50} duration={800} >
+              <Link to="Contact-me" spy={true} smooth={true} offset={100} duration={1000} >
               <li className=" ml-10 text-md  hover:border-b hover:border-secondary pb-2">
                 Contact
               </li>

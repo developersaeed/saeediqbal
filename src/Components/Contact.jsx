@@ -39,7 +39,7 @@ const Contact = () => {
   {/* <label>Message</label> */}
   <textarea name="message"   cols={30} rows={7} required className='my-2 outline-1  bg-black py-2 px-2 text-[1rem] text-white rounded-sm shadow-sm shadow-gray-600' placeholder='Describe Your Message Here...'/>
   
-  <input type="submit" value="SUBMIT REQUEST" className='bg-secondary font-semibold hover:bg-black hover:text-secondary  my-2 outline-1  py-2 px-2 text-[1rem] text-white rounded-sm ' />
+  <input type="submit" name='submit' value="SUBMIT REQUEST" className='bg-secondary font-semibold hover:bg-black hover:text-secondary  my-2 outline-1  py-2 px-2 text-[1rem] text-white rounded-sm ' />
   </form>   </div>
   </div>
 
