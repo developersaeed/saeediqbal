@@ -6,13 +6,13 @@ const HeroSection = () => {
   return (
     <>
       {/* Main div */}
-      <div className="h-screen w-full flex flex-col bg-[#080B09]">
+      <div className="h-screen w-full flex flex-col bg-[#080B09] pb-[4rem] ">
         <Navbar />
 
-        <div className="flex justify-between gap-2 md:flex-row flex-col  md:gap-28 px-[1rem] md:px-52 pb-[5rem] mt-[2rem]">
-          <div className="md:w-[50%] w-[100%] order-1 md:order-first pt-[4rem]">
+        <div className="flex justify-between gap-2 md:flex-row flex-col  md:gap-28 px-[1rem] md:px-52  mt-[2rem]">
+          <div className="md:w-[50%] w-[100%] order-1 md:order-first pt-8">
             
-            <div className="text-[12px] text-secondary ">-Hello, I'm</div>
+            <div className="text-[12px] text-secondary ">Hello, I'm</div>
             <div className="text-[54px] font-semibold ">Saeed Iqbal</div>
             <div className="text-[22px] font-semibold ">Website Developer</div>
             <div className="text-[14px] py-4  ">I help businesses grow online & make their online presence stand out from the crowd. I will make a professional website for you in wordperss, shopify or React.</div>

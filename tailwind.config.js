@@ -17,7 +17,8 @@ module.exports = {
           "acent-i": "#292929",
           "para-color": "#F3F3F3",
           "shadow": "#D55D07",
-          "btn": "#006600"
+          "btn": "#006600",
+          "r-bg":"#14C832",
         
       },
     },

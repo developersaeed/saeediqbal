@@ -1,33 +1,15 @@
-import LogoImage from "../img/logo.png";
+import LogoImage from "./Assets/Logo/logo.png";
 
 function Maintenance() {
   return (
     <>
-      <div className="flex flex-col justify-center  h-[100vh]">
+      <div className="flex flex-col justify-center  h-[100vh] bg-[#1B1F24]">
         <div className="p-4 flex justify-center">
-          <img src={LogoImage} className=" h-auto w-[200px]" alt="Image" />
-        </div>
-        <div className="p-4 flex justify-center">
-          <p className="text-white font-sans text-center">
-            Website Under Maintenance. Coming Soon...
-          </p>
+          <img src={LogoImage} className=" h-auto lg:w-[15%] w-[50%]"  alt="Image" />
+        
         </div>
 
-        <div className="flex justify-center">
-          <p className="text-white font-sans text-sm">
-            Contact at saeediqbalofficial@gmail.com
-           
-          </p>
-        </div>
-        <div className="container bg-slate-500">
-
-<div className="bg-green-300">01 Logo</div>
-<div className="bg-blue-300">02 Menu </div>
-<div className="bg-red-300"> Icons</div>
-
-
-
-</div>
+        <div className="text-center text-white/70"> <p>Site Under Maintenance</p></div>
       </div>
     </>
   );

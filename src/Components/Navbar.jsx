@@ -90,7 +90,7 @@ const Navbar = () => {
                 </a>
               </div>
               <div>
-              <div onClick={handleNav} className=" shadow-md rounded-full shadow-white p-1 cursor-pointer">
+              <div onClick={handleNav} className=" shadow-md rounded-full shadow-[#02510E] p-1 cursor-pointer">
                 <MdOutlineClose size={25} className="text-white" />
               </div>
               </div>
@@ -100,7 +100,7 @@ const Navbar = () => {
 
             <div className="border-b border-gray-400 my-4">
               <p className="text-sm capitalize w-[90%] md:w-[90%] py-3 text-para-color">
-                Let's build your dream website together
+                Let's build your dream website
               </p>
             </div>
             <div>
@@ -120,12 +120,12 @@ const Navbar = () => {
 
                 <div>
 
-                <div className="flex justify-between items-center w-[85%] mt-4 ">
+                <div className="flex justify-between items-center w-[85%] mt-4 px-0 ">
                 {/* <a href="https://www.instagram.com/saeediqbal.dev/" aria-label="Instagram" target="_blank">    <div className=" rounded-xs bg-acent mx-1  rounded-full text-white shadow-md shadow-white hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-gray-800  hover:text-secondary">    <FaInstagram  size={ 20}  /> </div> </a> */}
-                <a href="https://www.linkedin.com/in/saeediqbaldev" aria-label="LinedIn" target="_blank">      <div className=" rounded-xs bg-[#080B09] mx-1  rounded-full text-[#1CB834]  hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-secondary hover:bg-black  hover:text-secondary">    <TbBrandLinkedin size={ 20}  />   </div></a>
-                <a href="mailto:saeediqbalofficial@gmail.com"       aria-label="Gmail" target="_blank">        <div className=" rounded-xs bg-[#080B09] mx-1  rounded-full text-[#1CB834]  hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-secondary hover:bg-black  hover:text-secondary">    <MdOutlineMail size={ 20}  /></div></a>
-                <a href="https://wa.me/923049297788"                aria-label="WhatsApp" target="_blank">     <div className=" rounded-xs bg-[#080B09] mx-1  rounded-full text-[#1CB834]  hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-secondary hover:bg-black  hover:text-secondary">    <FaWhatsapp  size={ 20}  /></div></a>
-                <a href="https://github.com/saeediqbaldev"          aria-label="Github" target="_blank">       <div className=" rounded-xs bg-[#080B09] mx-1  rounded-full text-[#1CB834]  hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-secondary hover:bg-black  hover:text-secondary">    <FaGithub size={ 20}  /></div></a>
+                <a href="https://www.linkedin.com/in/saeediqbaldev" aria-label="LinedIn" target="_blank">      <div className=" rounded-xs  mx-1  rounded-full text-white bg-[#02510E]  hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-secondary hover:bg-black  hover:text-secondary">    <TbBrandLinkedin size={ 20}  />   </div></a>
+                <a href="mailto:saeediqbalofficial@gmail.com"       aria-label="Gmail" target="_blank">        <div className=" rounded-xs  mx-1  rounded-full text-white bg-[#02510E]  hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-secondary hover:bg-black  hover:text-secondary">    <MdOutlineMail size={ 20}  /></div></a>
+                <a href="https://wa.me/923049297788"                aria-label="WhatsApp" target="_blank">     <div className=" rounded-xs  mx-1  rounded-full text-white bg-[#02510E]  hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-secondary hover:bg-black  hover:text-secondary">    <FaWhatsapp  size={ 20}  /></div></a>
+                <a href="https://github.com/saeediqbaldev"          aria-label="Github" target="_blank">       <div className=" rounded-xs  mx-1  rounded-full text-white bg-[#02510E]  hover:scale-110 hover:duration-200  p-[08px] hover:shadow-lg  hover:shadow-secondary hover:bg-black  hover:text-secondary">    <FaGithub size={ 20}  /></div></a>
             </div>
                 </div>
 

@@ -4,24 +4,4 @@
 
 @layer base{
 
-    body {
-
-
-        /* @apply bg-[#ecf0f3] text-white tracking-wide */
-        @apply bg-[#1a1818] text-white tracking-wide
-}
-    h1,h2,h3,h4,h5 {
-
-    /* @apply font-bold text-[#e6e6e6] */
-}
-
-    li {
-
-    @apply cursor-pointer
-}
-
-    button{
-
-    /* @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-secondary  to-[#ff8c2e]   */
-}
 }
